@@ -122,4 +122,9 @@ function parse_git_branch () {
   }
 
 
-  PS1="$RED\u@\h$NO_COLOR:\w$GREEN\$(parse_git_branch)$NO_COLOR\$ "
+#  PS1="$RED\u@\h$NO_COLOR:\w$GREEN\$(parse_git_branch)$NO_COLOR\$ "
+
+export GOPATH=~/go
+
+export PATH=$PATH:/usr/local/go/bin
+
